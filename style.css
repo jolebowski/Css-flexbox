@@ -3,10 +3,20 @@ body {
     padding:0
 }
 
+/* Avec flex-direction on a la possibilité 
+d'utilisé row-reverse pour afficher les éléments 
+à l'envers*/
+
+/*On peut aussi utiliser flex-direction: column
+pour afficher les éléments en colonne et 
+le column-reverse pour afficher les 
+éléments de la colonne à l'envers*/
+
 .container{
     background-color: sandybrown;
     padding: 17px;
     display: inline-flex;
+    flex-direction: column-reverse;
 }
 .item{
     background-color: beige;
