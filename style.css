@@ -3,3 +3,13 @@ body {
     padding:0
 }
 
+.container{
+    background-color: sandybrown;
+    padding: 17px;
+    display: inline-flex;
+}
+.item{
+    background-color: beige;
+    padding: 10px;
+    margin: 8px;
+}
