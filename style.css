@@ -3,6 +3,15 @@ body {
     padding:0
 }
 
+/* Avec le display:flex Les éléments 
+font être posé les uns à côté des 
+autres sur un plan horizontal*/
+
+/* Avec le display:inline-flex va 
+permettre de contenier l'espace 
+nécessaire qu'il faut pour 
+contenir les éléments*/
+
 .container{
     background-color: sandybrown;
     padding: 17px;
