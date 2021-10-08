@@ -3,10 +3,27 @@ body {
     padding:0
 }
 
+/*Avec le flex-wrap:wrap ca permet de pourvoir
+faire descendre un élément en bas lorsque 
+il n y a plus d'espace*/
+
+/*Avec le flex-vrap: wrap-reverse permet de 
+mettre en premier la dernière ligne*/
+
+/*Lorsque qu'on souhaite ajouter une 2ème colonne 
+il faut ajouter une hauteur. En effet cela va 
+positioné les éléments dans une colone pour 
+mieux les afficher. Cela fait avec flex-wrap: wrap et 
+flex-direction: column*/
+
 .container{
     background-color: sandybrown;
     padding: 17px;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+
 }
 .item{
     background-color: beige;
